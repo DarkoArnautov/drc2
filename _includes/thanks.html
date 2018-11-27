@@ -1,0 +1,40 @@
+<div id="Hero" class="hero-section">
+    <div class="content-wrapper w-container">
+        <div class="flex _2">
+            <div class="_50-column">
+                <div class="hero-flex">
+                    <div class="div-block-6">
+                        <div class="title-3" data-aos="bounceInUp">
+                            {{ page.thanks.label }}
+                        </div>
+                        <div data-aos="bounceInUp">
+                            <h1 class="h1">
+                                <strong>
+                                    {{ page.thanks.header }}
+                                </strong>
+                            </h1>
+                            <div class="underline-2"></div>
+                        </div>
+                        <div  data-aos="bounceInUp">
+                            <div class="subtitle-box-2">
+                                <p class="subtitule">
+                                    {{ page.thanks.subheader }}
+                                </p>
+                            </div>
+                            {% for line in page.thanks.content %}
+                                <p>{{ line }}</p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="_50-column">
+                <img src="{{ 'assets/images/DrC.png?v=' | append: site.github.build_revision | relative_url }}" width="1000"
+                     srcset="{{ '/assets/images/DrC-p-500.png?v=' | append: site.github.build_revision | relative_url }} 500w, {{ '/assets/images/DrC-p-800.png?v=' | append: site.github.build_revision | relative_url }} 800w, {{ '/assets/images/DrC-p-1080.png?v=' | append: site.github.build_revision | relative_url }} 1080w, {{ '/assets/images/DrC.png?v=' | append: site.github.build_revision | relative_url }} 1124w"
+                     sizes="(max-width: 479px) 245px, (max-width: 767px) 93vw, (max-width: 991px) 47vw, 48vw"
+                     alt="" class="hero-girl" data-aos="bounceInRight">
+                <div class="frame" data-aos="bounceInUp"></div>
+            </div>
+        </div>
+    </div>
+</div>

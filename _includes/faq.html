@@ -1,0 +1,35 @@
+
+<section class="content-section">
+    <div class="content-wrapper w-container">
+        <div style="" class="center-box">
+            <h2>{{ page.faq.header }}</h2>
+            <div class="subtitle-box">
+                {% if page.faq.subheader %}
+                <p class="subtitule">
+                    {{ page.faq.subheader|join: "<br/>" }}
+                </p>
+                {% endif %}
+            </div>
+        </div>
+        <div class="flex">
+            {% for block in page.faq.blocks %}
+            <div class="faq-box _{{ forloop.index }}" data-aos="bounceInUp">
+                <div class="question-box">
+                    <div class="question-tag">Q.</div>
+                    <div class="inline-block">
+                        <div class="question">{{ block.question }}</div>
+                    </div>
+                </div>
+                <div class="answer-box">
+                    <div class="ansewer-tag">A.</div>
+                    <div class="inline-block">
+                        <p>
+                            {{ block.answer }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

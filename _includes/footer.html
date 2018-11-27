@@ -1,0 +1,60 @@
+<div class="footer">
+    <div class="content-wrapper w-container">
+        <div class="footer-container">
+            {% for block in site.footer.blocks %}
+            <div class="contact-details-block _{{ forloop.index }}">
+                <h5 class="h5 white">{{ block.header }}</h5>
+                <div class="top-border mini">
+                    {% if block.content %}
+                        <div>
+                            <div class="phone-number">
+                                {{ block.content }}
+                            </div>
+                        </div>
+                    {% endif %}
+                    {% if block.lines %}
+                    <div>
+                        <div class="phone-number">
+                            {{ block.lines|join: "<br/>" }}
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% for contact in block.contacts %}
+                    <div class="contact-details-item">
+                        <div class="phone">{{ contact.label }}:</div>
+                        <div class="inline-block">
+                            {% if contact.link %}
+                                <div class="contact-text regular"><a href="{{ contact.link.src|default: 'mailto:' ~ contact.link }}" target="_blank">{{ contact.link.label|default: contact.link }}</a></div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% if block.link %}
+                    <div>
+                        <a href="{{ block.link.src }}" target="{{ block.link.target|default('') }}" class="mini-link-block w-inline-block">
+                            <div class="link-block-2">
+                                <strong>
+                                    {{ block.link.label }}
+                                </strong>
+                            </div>
+                            <div class="mini-arrow-3 w-icon-slider-right"></div>
+                        </a>
+                    </div>
+                    {% endif %}
+
+                    {% if block.socials %}
+                    <div class="social-icons">
+                        {% for social in block.socials %}
+                            <a href="#" class="social-icon {{ social.icon }} w-inline-block"></a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="footer-container-2">
+            <div class="_18-column mobile-border"></div>
+        </div>
+    </div>
+</div>

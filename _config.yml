@@ -1,0 +1,50 @@
+# Basics
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dr-consalter.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# External services
+google_analytics: "" # GA ID
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Content
+title: IL Medical Card Consultation - Dr. Consalter
+meta:
+    description: |
+        We are a small, family-run general medicine practice in Wicker Park
+        providing compassionate, personalized, medical care.
+appointment:
+    link:
+        src: http://calendly.com/drconsalter/15min
+        label: Book Appointment
+footer:
+    blocks:
+    - header: Contact Us
+      contacts:
+      - label: E-mail
+        link:
+            src: mailto:doctor@drconsalter.com
+            label: doctor@drconsalter.com
+      socials:
+      - icon: facebook
+        src: https://facebook.com/#
+      - icon: twitter
+        src: https://twitter.com/#
+      - icon: instagram
+        src: https://instagram.com/#
+    - header: Address
+      lines:
+      - 1531 N Wood St
+      - 1st Floor
+      - Chicago, IL 60622
+      link:
+          src: https://goo.gl/maps/FLFBkq8dBnD2
+          label: GET DIRECTIONS
+    - header: Schedule
+      content: By Appointment Only
+      link:
+          src: https://calendly.com/drconsalter/15min
+          label: Book Appointment
+          target: _blank

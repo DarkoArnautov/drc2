@@ -1,0 +1,52 @@
+<section class="content-section">
+    <div class="content-wrapper w-container">
+        <div style="" class="center-box">
+            <h2>{{ page.process.header }}</h2>
+            <div class="subtitle-box">
+                <p class="subtitule">
+                    {{ page.process.subheader|join: "<br/>" }}
+                </p>
+                <div class="underline"></div>
+            </div>
+        </div>
+        <div class="bottom-line">
+            <div class="inner-wrapper">
+                <div class="flex">
+                    <div style="" class="_50-column"></div>
+                </div>
+                <div class="w-row">
+                    <div class="w-col w-col-1"></div>
+                    <div class="w-col w-col-10">
+                        <div class="right-text-box mobile-no-border">
+                            <div class="top-border medium">
+                                {% for step in page.process.steps %}
+                                <div class="feature-box" data-aos="bounceInUp">
+                                    <div class="feature-icon-box">
+                                        <img src="{{ '/assets/images/' | append: step.icon.src | append: '?v=' | append: site.github.build_revision | relative_url }}" width="{{ step.icon.width|default: 38 }}" alt="">
+                                    </div>
+                                    <div class="feature-text-box">
+                                        <div class="title-2">{{ step.header }}</div>
+
+                                        {% for content in step.content %}
+                                            <p class="paragraph medium">
+                                                {{ content }}
+                                            </p>
+                                        {% endfor %}
+
+                                        {% if step.important %}
+                                            <p class="paragraph medium">
+                                                <strong><em>{{ step.important }}</em></strong>
+                                            </p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-col w-col-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
