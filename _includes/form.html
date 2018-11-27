@@ -10,15 +10,10 @@
                     </div>
                     <div class="form-wrapper">
                         <div class="w-form">
-                            <form action="https://formspree.io/{{ site.formspree }}"
-                                  data-redirect="{{ site.url }}/thanks.html"
-                                  method="POST">
+                            <form method="POST" action="https://formspree.io/mnzllnqm" data-redirect="{{ site.url }}/thanks.html">
                                 <div class="bottom-border">
                                     <p class="paragraph medium">{{ page.form.content }}</p>
                                 </div>
-                                {% if page.form.cc_email %}
-                                    <input type="hidden" name="_cc" value="{{ page.form.cc_email }}" />
-                                {% endif %}
                                 <input type="hidden" name="_subject" value="{{ page.form.email_subject }}" />
 
                                 <input type="text" class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="First Name" id="First-Name" required=""><input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" id="Last-Name" required=""><input type="email" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Your Email" id="Email" required=""><input type="text" class="text-field w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="Your Phone" id="Phone">

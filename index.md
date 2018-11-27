@@ -55,17 +55,9 @@ faq:
         answer: Before recent changes to the law, it was taking about 3 months after the application was submitted. However, now that background checks have ended we expect this number to drop very quickly.
 form:
     header: Get Started
-    email_subject: Dr Consalter form submission
-    cc_email: consalter@dispensary33.com
+    email_subject: Dr Consalter Questions
+    cc_email: 
     content: Fill the form below and we’ll get back to you as soon as possible, usually within 24 hours.
-thanks:
-    label: Thank you
-    header: Thank you
-    subheader: |
-        Our team will take a look at your submission and get back to you if we have any questions. 
-        Otherwise we will schedule an appointment shortly. Feel free to reach out if you have any questions.
-    content:
-        - We look forward to seeing you!
 testimonials:
     header: Testimonials
     subheader: What People Say About Us
