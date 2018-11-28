@@ -4,6 +4,7 @@ url: "https://dr-consalter.com" # the base hostname & protocol for your site, e.
 
 # External services
 google_analytics: "UA-4628695-12" # GA ID
+google_conversions: "AW-818062199"
 formspree: "mddyylom"
 
 # Build settings
