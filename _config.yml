@@ -3,7 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dr-consalter.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # External services
-google_analytics: "" # GA ID
+google_analytics: "UA-4628695-12" # GA ID
 formspree: "mddyylom"
 
 # Build settings
