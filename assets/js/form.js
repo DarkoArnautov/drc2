@@ -11,7 +11,6 @@ $(document).ready(function() {
             data: $(this).serializeArray(),
             dataType:"json",
             success:function(json){
-                alert(json);
 
                 window.location = redirect;
             }
