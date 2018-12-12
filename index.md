@@ -15,7 +15,7 @@ process:
     steps:
       - header: 1. Online form
         content:
-          - Fill out the form below. We'll get back to you within 24 hours.
+          - Fill out the form. We'll email you back right away.
         icon:
             src: noun_form_25603_96b2b4.svg
       - header: 2. Appointment
