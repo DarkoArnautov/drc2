@@ -84,7 +84,7 @@ testimonials:
 ---
 
 {% include welcome.html %}
-{% include process.html %}
 {% include form.html %}
+{% include process.html %}
 {% include faq.html %}
 {% include testimonials.html %}
