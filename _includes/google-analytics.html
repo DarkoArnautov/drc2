@@ -1,27 +1,9 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<!-- Global site tag (gtag.js) - Google Ads: 818062199 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-818062199"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '{{ site.google_analytics }}');
-  gtag('config', '{{ site.google_conversions }}');
-</script>
-
-<!-- Event snippet for Form conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-818062199/9K3CCOuVyosBEPfGioYD',
-      'event_callback': callback
-  });
-  return false;
-}
+  gtag('config', 'AW-818062199');
 </script>
