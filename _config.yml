@@ -19,7 +19,7 @@ meta:
         providing compassionate, personalized, medical care.
 appointment:
     link:
-        src: http://calendly.com/drconsalter/
+        src: https://calendly.com/doctorconsalter
         label: Book Appointment
 footer:
     blocks:
@@ -47,6 +47,6 @@ footer:
     - header: Schedule
       content: By Appointment Only
       link:
-          src: https://calendly.com/drconsalter/
+          src: https://calendly.com/doctorconsalter
           label: Book Appointment
           target: _blank
