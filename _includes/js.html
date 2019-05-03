@@ -18,3 +18,14 @@
         visibility: visible;
     }
 </style>
+<script type="text/javascript">
+    function checkfunction() {
+        var checked = $('input[name=Felony]:checked').val();
+        if (checked==="Yes") {
+            $("#feloy-checked").removeAttr("style").show();
+        } else if (checked==="No") {
+            $("#feloy-checked").removeAttr("style").hide();
+        }
+    }
+    
+</script>

@@ -10,22 +10,52 @@
                     </div>
                     <div class="form-wrapper">
                         <div class="w-form">
-                            <form method="POST" action="https://formspree.io/mddyylom" data-redirect="{{ site.url }}/thanks.html">
+                            <form method="POST" action="//formspree.io/bryan@zis.es" data-redirect="{{ site.url }}/thanks.html">
                                 <div class="bottom-border">
                                     <p class="paragraph medium">{{ page.form.content }}</p>
                                 </div>
                                 <input type="hidden" name="_subject" value="{{ page.form.email_subject }}" />
 
-                                <input type="text" class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="First Name" id="First-Name" required=""><input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" id="Last-Name" required=""><input type="email" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Your Email" id="Email" required=""><input type="text" class="text-field w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="Your Phone" id="Phone">
-                                <p class="paragraph medium"><a href="#"><strong>What qualifying condition do you believe you suffer from?</strong></a></p>
-                                <p class="paragraph medium"><a href="#"><strong class="bold-text"><br>Most Common:</strong></a></p>
-                                <div class="checkbox-field w-checkbox"><input type="checkbox" id="PTSD" name="PTSD" data-name="PTSD" class="w-checkbox-input"><label for="PTSD" class="checkbox-label w-form-label"><strong>PTSD</strong> (victim of violence or psychological trauma)</label></div>
-                                <div class="checkbox-field w-checkbox"><input type="checkbox" id="Fibro" name="Fibro" data-name="Fibro" class="w-checkbox-input"><label for="Fibro" class="checkbox-label w-form-label"><strong>Severe Fibromyalgia</strong> (chronic symptoms of pain and fatigue)</label></div>
-                                <div class="checkbox-field w-checkbox"><input type="checkbox" id="PCS" name="PCS" data-name="PCS" class="w-checkbox-input"><label for="PCS" class="checkbox-label w-form-label"><strong>Post Concussive Syndrome</strong> (often from contact sports or single-event head trauma)</label></div>
-                                <div class="checkbox-field w-checkbox"><input type="checkbox" id="SCD" name="SCD" data-name="SCD" class="w-checkbox-input"><label for="SCD" class="checkbox-label w-form-label"><strong xmlns="http://www.w3.org/1999/xhtml">Spinal Cord Disease</strong> (including spinal stenosis)</label></div>
-                                <div class="checkbox-field w-checkbox"><input type="checkbox" id="Cancer" name="Cancer" data-name="Cancer" class="w-checkbox-input"><label for="Cancer" class="checkbox-label w-form-label"><strong xmlns="http://www.w3.org/1999/xhtml">Cancer </strong>(all forms) </label></div>
-                                <p class="paragraph medium"><a href="#"><strong class="bold-text"><br>Other Qualifying Conditions (Pick Primary Condition):</strong></a></p><select id="Other-Qualifying-Conditions" name="Other-Qualifying-Conditions-2" data-name="Other Qualifying Conditions 2" required="" class="w-select"><option value="Choose One">Choose One</option><option value="Aids">Aids</option><option value="Agitation Of Alzheimer’s Disease">Agitation Of Alzheimer’s Disease</option><option value="ALS">ALS</option><option value="Arnold-Chiari Malformation And Syringomelia">Arnold-Chiari Malformation And Syringomelia</option><option value="Cachexia/Wasting Syndrome">Cachexia/Wasting Syndrome</option><option value="Causalgia">Causalgia</option><option value="Chronic Inflammatory Demyelinating Polyneuropathy">Chronic Inflammatory Demyelinating Polyneuropathy</option><option value="Crohns Disease">Crohns Disease</option><option value="CRPS">CRPS</option><option value="Dystonia">Dystonia</option><option value="Fibrous Dysplasia">Fibrous Dysplasia</option><option value="Glaucoma">Glaucoma</option><option value="Hepatitis C">Hepatitis C</option><option value="HIV">Human Immunodeficiency Virus (HIV)</option><option value="Hydrocephalus">Hydrocephalus</option><option value="Interstitial Cystitisr">Interstitial Cystitisr</option><option value="Lupus">Lupus</option><option value="Multiple Sclerosis">Multiple Sclerosis</option><option value="Muscular Dystrophy">Muscular Dystrophy</option><option value="Myasthenia Gravis">Myasthenia Gravis</option><option value="Myoclonus">Myoclonus</option><option value="Nail-Patella Syndrome">Nail-Patella Syndrome</option><option value="Neurofibromatosis">Neurofibromatosis</option><option value="Parkinsons Disease">Parkinsons Disease</option><option value="Post-Concussion Syndrome">Post-Concussion Syndrome</option><option value="Post Traumatic Stress Symptoms">Post Traumatic Stress Symptoms</option><option value="RSD">RSD (Complex Regional Pain Syndromes Type I)</option><option value="Residual Limb Pain">Residual Limb Pain</option><option value="Rheumatoid Arthritis">Rheumatoid Arthritis</option><option value="Seizures">Seizures</option><option value="Sjogrens Syndrome">Sjogrens Syndrome</option><option value="Spinal Cord Disease">Spinal Cord Disease</option><option value="SCA">Spinocerebellar Ataxia (SCA)</option><option value="Terminal Illiness">Terminal Illiness</option><option value="Tourettes Syndrome">Tourettes Syndrome</option><option value="Traumatic Brain Injury">Traumatic Brain Injury</option><option value="Other">Other (Please explain below)</option></select>
-                                <p class="paragraph medium"><a href="#"><strong><br>Have you previously been diagnosed with this condition by a doctor?</strong></a></p><select id="Have-you-been-diagnosed" name="Have-you-been-diagnosed" data-name="Have you been diagnosed?" required="" class="w-select"><option value="Choose One">Choose One</option><option value="Yes">Yes</option><option value="No">No</option></select><textarea id="Description" name="Description" placeholder="Anything else we should know?" maxlength="5000" data-name="Description" class="textarea w-input"></textarea>
+                                <input type="text" class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="First Name" id="First-Name" required="">
+                                <input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" id="Last-Name" required="">
+                                <input type="text" class="text-field w-input" name="Address" data-name="Address" placeholder="Address">
+                                <input type="number" class="text-field w-input" name="Zipcode" data-name="Zipcode" placeholder="Zipcode" >
+                                <input type="email" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Your Email" id="Email" required=""><input type="text" class="text-field w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="Your Phone" id="Phone">
+
+                                <p class="paragraph medium">Are you over 18 years of age?</p>
+                                <div class="checkbox-field w-checkbox"> 
+                                    <input type="radio" id="Age" name="Age" data-name="Age" value="Yes"> Yes
+                                </div>
+                                <div class="checkbox-field w-checkbox">
+                                    <input type="radio" id="Age" name="Age" data-name="Age" value="No"> No
+                                </div>
+
+                                <p class="paragraph medium">Have you ever been convicted of a felony?</p>
+                                <div class="checkbox-field w-checkbox"> 
+                                    <input type="radio" id="Felony" name="Felony" data-name="Felony" value="Yes" onclick="checkfunction();"> Yes
+                                    <div id="feloy-checked" style="display: none" >
+                                        <input type="text" class="text-field w-input" maxlength="256" id="Crime" name="Crime" placeholder="What Crime was the conviction for?">
+                                        <input type="text" class="text-field w-input" maxlength="256" id="ConvictionDate" name="ConvictionDate" placeholder="What was the date of the conviction?">
+                                        <p class="paragraph medium">What kind of position would most interest you?</p>
+                                        <p class="paragraph medium">- Entry Level Operation</p>
+                                        <select id="Entry-level-operation" name="Entry-level-operation" data-name="Entry-level-operation?" required="" class="w-select">
+                                            <option value="Choose One">Choose One</option>
+                                            <option value="Trimmer">Trimmer</option>
+                                            <option value="Gardener">Gardener</option>
+                                            <option value="Extraction Tech">Extraction Tech</option>
+                                            <option value="Janitorial">Janitorial</option>
+                                        </select>
+                                        <p class="paragraph medium">- Entry Level Security</p>
+                                        <select id="Entry-level-security" name="Entry-level-security" data-name="Entry-level-security?" required="" class="w-select">
+                                            <option value="Choose One">Choose One</option>
+                                            <option value="Security Guard">Security Guard</option>
+                                            <option value="Delivery Agent">Delivery Agent</option>
+                                        </select>
+                                    </div>
+                                    <input type="radio" id="Felony" name="Felony" data-name="Felony" value="No" checked onclick="checkfunction();"> No
+                                </div>
+                                <input type="hidden" role="uploadcare-uploader" name="my_file" />
+                                <textarea id="Description" name="Description" placeholder="Anything else you would like to tell us?" maxlength="5000" data-name="Description" class="textarea w-input"></textarea>
                                 <input type="submit" value="Take the first step here!" data-wait="Please wait..." class="button-2 w-button">
                             </form>
                         </div>
