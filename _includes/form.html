@@ -11,11 +11,7 @@
                     <div class="form-wrapper">
                         <div class="w-form">
                             <form method="POST" action="//formspree.io/darkoservantes@outlook.com" data-redirect="{{ site.url }}/thanks.html">
-                                <div class="bottom-border">
-                                    <p class="paragraph medium">{{ page.form.content }}</p>
-                                </div>
-                                <input type="hidden" name="_subject" value="{{ page.form.email_subject }}" />
-
+                                
                                 <input type="text" class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="First Name" id="First-Name" required="">
                                 <input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" id="Last-Name" required="">
                                 <input type="text" class="text-field w-input" name="Address" data-name="Address" placeholder="Address">
@@ -56,7 +52,8 @@
                                 </div>
                                 <input type="hidden" role="uploadcare-uploader" name="my_file" />
                                 <textarea id="Description" name="Description" placeholder="Anything else you would like to tell us?" maxlength="5000" data-name="Description" class="textarea w-input"></textarea>
-                                <input type="submit" value="Take the first step here!" data-wait="Please wait..." class="button-2 w-button">
+                                <input type="submit" value="Send" data-wait="Please wait..." class="button-2 w-button">
+
                             </form>
                         </div>
                     </div>
