@@ -5,6 +5,7 @@ url: "https://zises-test.netlify.com" # the base hostname & protocol for your si
 # External services
 formspree: "mddyylom"
 
+github: [metadata]
 # Build settings
 markdown: kramdown
 theme: minima

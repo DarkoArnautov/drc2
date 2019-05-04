@@ -22,7 +22,7 @@
                                 {% for step in page.process.steps %}
                                 <div class="feature-box" data-aos="bounceInUp">
                                     <div class="feature-icon-box">
-                                        <img src="{{ '/assets/images/' | append: step.icon.src | append: '?v=' | append: site.github.build_revision | relative_url }}" width="{{ step.icon.width|default: 38 }}" alt="">
+                                        <img src="{{ '/assets/images/' | append: step.icon.src | append: '' }}" width="{{ step.icon.width|default: 38 }}" alt="">
                                     </div>
                                     <div class="feature-text-box">
                                         <div class="title-2">{{ step.header }}</div>

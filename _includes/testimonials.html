@@ -30,7 +30,7 @@
                         <div class="star-rating">
                             <div class="div-block-2">
                                 {% for i in (1..testimonial.stars)) %}
-                                <img src="{{ '/assets/images/estrella.svg?v=' | append: site.github.build_revision | relative_url }}" width="13" alt="" class="star">
+                                <img src="{{ '/assets/images/estrella.svg' }}" width="13" alt="" class="star">
                                 {% endfor %}
                             </div>
                             <div class="rating-text">{{ testimonial.stars }}/{{ testimonial.stars }} Stars</div>
