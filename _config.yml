@@ -1,6 +1,6 @@
 # Basics
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://darkoarnautov.github.io/drc2/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zises-test.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # External services
 google_analytics: "AW-818062199" # GA ID
