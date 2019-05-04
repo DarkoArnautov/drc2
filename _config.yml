@@ -1,10 +1,8 @@
 # Basics
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://zises-test.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # External services
-google_analytics: "AW-818062199" # GA ID
-google_conversions: "AW-818062199"
 formspree: "mddyylom"
 
 # Build settings
