@@ -28,28 +28,33 @@
 
                                 <p class="paragraph medium">Have you ever been convicted of a felony?</p>
                                 <div class="checkbox-field w-checkbox"> 
-                                    <input type="radio" id="Felony" name="Felony" data-name="Felony" value="Yes" onclick="checkfunction();"> Yes
+                                    <div class="checkbox-field w-checkbox">
+                                        <input type="radio" id="Felony" name="Felony" data-name="Felony" value="Yes" onclick="checkfunction();"> Yes
+                                    </div>
                                     <div id="feloy-checked" style="display: none" >
                                         <input type="text" class="text-field w-input" maxlength="256" id="Crime" name="Crime" placeholder="What Crime was the conviction for?">
                                         <input type="text" class="text-field w-input" maxlength="256" id="ConvictionDate" name="ConvictionDate" placeholder="What was the date of the conviction?">
-                                        <p class="paragraph medium">What kind of position would most interest you?</p>
-                                        <p class="paragraph medium">- Entry Level Operation</p>
-                                        <select id="Entry-level-operation" name="Entry-level-operation" data-name="Entry-level-operation?" required class="w-select">
-                                            <option value="Choose One">Choose One</option>
-                                            <option value="Trimmer">Trimmer</option>
-                                            <option value="Gardener">Gardener</option>
-                                            <option value="Extraction Tech">Extraction Tech</option>
-                                            <option value="Janitorial">Janitorial</option>
-                                        </select>
-                                        <p class="paragraph medium">- Entry Level Security</p>
-                                        <select id="Entry-level-security" name="Entry-level-security" data-name="Entry-level-security?" required class="w-select">
-                                            <option value="Choose One">Choose One</option>
-                                            <option value="Security Guard">Security Guard</option>
-                                            <option value="Delivery Agent">Delivery Agent</option>
-                                        </select>
+                                        
                                     </div>
-                                    <input type="radio" id="Felony" name="Felony" data-name="Felony" value="No" checked onclick="checkfunction();"> No
+                                    <div class="checkbox-field w-checkbox">
+                                        <input type="radio" id="Felony" name="Felony" data-name="Felony" value="No" checked onclick="checkfunction();"> No
+                                    </div>
                                 </div>
+                                <p class="paragraph medium">What kind of position would most interest you?</p>
+                                <p class="paragraph medium">- Entry Level Operation</p>
+                                <select id="Entry-level-operation" name="Entry-level-operation" data-name="Entry-level-operation?" required class="w-select">
+                                    <option value="Choose One">Choose One</option>
+                                    <option value="Trimmer">Trimmer</option>
+                                    <option value="Gardener">Gardener</option>
+                                    <option value="Extraction Tech">Extraction Tech</option>
+                                    <option value="Janitorial">Janitorial</option>
+                                </select>
+                                <p class="paragraph medium">- Entry Level Security</p>
+                                <select id="Entry-level-security" name="Entry-level-security" data-name="Entry-level-security?" required class="w-select">
+                                    <option value="Choose One">Choose One</option>
+                                    <option value="Security Guard">Security Guard</option>
+                                    <option value="Delivery Agent">Delivery Agent</option>
+                                </select>
                                 <input type="hidden" role="uploadcare-uploader" name="my_file" />
                                 <textarea id="Description" name="Description" placeholder="Anything else you would like to tell us?" maxlength="5000" data-name="Description" class="textarea w-input"></textarea>
                                 <input type="submit" value="Send" data-wait="Please wait..." class="button-2 w-button">

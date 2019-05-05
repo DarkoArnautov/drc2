@@ -7,11 +7,11 @@
 <meta name="generator" content="Jekyll v3.7.4" />
 <meta property="og:title" content="IL Medical Card Consultation - Dr. Consalter" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://zises-test.netlify.com/" />
-<meta property="og:url" content="https://zises-test.netlify.com/" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="IL Medical Card Consultation - Dr. Consalter" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"https://zises-test.netlify.com/","name":"IL Medical Card Consultation - Dr. Consalter","headline":"IL Medical Card Consultation - Dr. Consalter","@context":"http://schema.org"}</script>
+{"@type":"WebSite","url":"http://localhost:4000/","name":"IL Medical Card Consultation - Dr. Consalter","headline":"IL Medical Card Consultation - Dr. Consalter","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <title>IL Medical Card Consultation - Dr. Consalter</title>
   <meta content="We are a small, family-run general medicine practice in Wicker Park
@@ -57,7 +57,7 @@ providing compassionate, personalized, medical care.
 </head>
 <body class="body"><div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
   <div class="content-wrapper w-container">
-    <a href="https://zises-test.netlify.com" class="brand w-nav-brand">
+    <a href="http://localhost:4000" class="brand w-nav-brand">
       <img src="/assets/images/Consultar_Logo.png" width="177" alt="" class="image">
     </a>
     <nav role="navigation" class="nav-menu w-nav-menu">
@@ -98,8 +98,7 @@ providing compassionate, personalized, medical care.
                 </div>
             </div>
             <div class="_50-column">
-                <img src="assets/images/DrC.png" width="1000" srcset="/assets/images/DrC-p-500.png 500w, /assets/images/DrC-p-800.png 800w, /assets/images/DrC-p-1080.png 1080w, /assets/images/DrC.png 1124w" sizes="(max-width: 479px) 245px, (max-width: 767px) 93vw, (max-width: 991px) 47vw, 48vw" alt="" class="hero-girl" data-aos="bounceInRight" />
-                <div class="frame" data-aos="bounceInUp"></div>
+                <img src="assets/images/interview-aawoman.jpg" width="1000" srcset="/assets/images/interview-aawoman.jpg 500w, /assets/images/interview-aawoman.jpg 800w, /assets/images/interview-aawoman.jpg 1080w, /assets/images/interview-aawoman.jpg 1124w" sizes="(max-width: 479px) 245px, (max-width: 767px) 93vw, (max-width: 991px) 47vw, 48vw" alt="" class="hero-girl" data-aos="bounceInRight" />
             </div>
         </div>
     </div>
@@ -117,12 +116,8 @@ providing compassionate, personalized, medical care.
                     </div>
                     <div class="form-wrapper">
                         <div class="w-form">
-                            <form method="POST" action="//formspree.io/darkoservantes@outlook.com" data-redirect="https://zises-test.netlify.com/thanks.html">
-                                <div class="bottom-border">
-                                    <p class="paragraph medium">Fill the form below and we’ll get back to you as soon as possible, usually within 24 hours.</p>
-                                </div>
-                                <input type="hidden" name="_subject" value="Dr Consalter Questions" />
-
+                            <form method="POST" action="//formspree.io/darkoservantes@outlook.com" data-redirect="http://localhost:4000/thanks.html">
+                                
                                 <input type="text" class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="First Name" id="First-Name" required="" />
                                 <input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" id="Last-Name" required="" />
                                 <input type="text" class="text-field w-input" name="Address" data-name="Address" placeholder="Address" />
@@ -139,31 +134,37 @@ providing compassionate, personalized, medical care.
 
                                 <p class="paragraph medium">Have you ever been convicted of a felony?</p>
                                 <div class="checkbox-field w-checkbox"> 
-                                    <input type="radio" id="Felony" name="Felony" data-name="Felony" value="Yes" onclick="checkfunction();" /> Yes
+                                    <div class="checkbox-field w-checkbox">
+                                        <input type="radio" id="Felony" name="Felony" data-name="Felony" value="Yes" onclick="checkfunction();" /> Yes
+                                    </div>
                                     <div id="feloy-checked" style="display: none">
                                         <input type="text" class="text-field w-input" maxlength="256" id="Crime" name="Crime" placeholder="What Crime was the conviction for?" />
                                         <input type="text" class="text-field w-input" maxlength="256" id="ConvictionDate" name="ConvictionDate" placeholder="What was the date of the conviction?" />
-                                        <p class="paragraph medium">What kind of position would most interest you?</p>
-                                        <p class="paragraph medium">- Entry Level Operation</p>
-                                        <select id="Entry-level-operation" name="Entry-level-operation" data-name="Entry-level-operation?" required="" class="w-select">
-                                            <option value="Choose One">Choose One</option>
-                                            <option value="Trimmer">Trimmer</option>
-                                            <option value="Gardener">Gardener</option>
-                                            <option value="Extraction Tech">Extraction Tech</option>
-                                            <option value="Janitorial">Janitorial</option>
-                                        </select>
-                                        <p class="paragraph medium">- Entry Level Security</p>
-                                        <select id="Entry-level-security" name="Entry-level-security" data-name="Entry-level-security?" required="" class="w-select">
-                                            <option value="Choose One">Choose One</option>
-                                            <option value="Security Guard">Security Guard</option>
-                                            <option value="Delivery Agent">Delivery Agent</option>
-                                        </select>
+                                        
                                     </div>
-                                    <input type="radio" id="Felony" name="Felony" data-name="Felony" value="No" checked="" onclick="checkfunction();" /> No
+                                    <div class="checkbox-field w-checkbox">
+                                        <input type="radio" id="Felony" name="Felony" data-name="Felony" value="No" checked="" onclick="checkfunction();" /> No
+                                    </div>
                                 </div>
+                                <p class="paragraph medium">What kind of position would most interest you?</p>
+                                <p class="paragraph medium">- Entry Level Operation</p>
+                                <select id="Entry-level-operation" name="Entry-level-operation" data-name="Entry-level-operation?" required="" class="w-select">
+                                    <option value="Choose One">Choose One</option>
+                                    <option value="Trimmer">Trimmer</option>
+                                    <option value="Gardener">Gardener</option>
+                                    <option value="Extraction Tech">Extraction Tech</option>
+                                    <option value="Janitorial">Janitorial</option>
+                                </select>
+                                <p class="paragraph medium">- Entry Level Security</p>
+                                <select id="Entry-level-security" name="Entry-level-security" data-name="Entry-level-security?" required="" class="w-select">
+                                    <option value="Choose One">Choose One</option>
+                                    <option value="Security Guard">Security Guard</option>
+                                    <option value="Delivery Agent">Delivery Agent</option>
+                                </select>
                                 <input type="hidden" role="uploadcare-uploader" name="my_file" />
                                 <textarea id="Description" name="Description" placeholder="Anything else you would like to tell us?" maxlength="5000" data-name="Description" class="textarea w-input"></textarea>
-                                <input type="submit" value="Take the first step here!" data-wait="Please wait..." class="button-2 w-button" />
+                                <input type="submit" value="Send" data-wait="Please wait..." class="button-2 w-button" />
+
                             </form>
                         </div>
                     </div>

@@ -142,6 +142,10 @@ figcaption {
   margin-top: 5px;
 }
 
+.top-border.mini a{
+  color: white !important;
+}
+
 .top-border.custom-3 {
   margin-top: 10px;
 }
@@ -272,6 +276,10 @@ figcaption {
   text-align: center;
 }
 
+.center-box .title {
+  color: white !important;
+}
+
 .center-box.no-border {
   margin-bottom: 0px;
 }
@@ -307,7 +315,7 @@ figcaption {
   margin-top: 14px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #5d7a7c;
+  background-color: white;
 }
 
 .underline.white {
@@ -424,7 +432,7 @@ figcaption {
 .link-block-2 {
   display: inline-block;
   font-family: Roboto, sans-serif;
-  color: #647078;
+  color: white;
   font-size: 11px;
   line-height: 11px;
   font-weight: 500;
@@ -518,7 +526,7 @@ figcaption {
   max-width: 175px;
   margin-top: 16px;
   margin-bottom: 25px;
-  background-color: #5d7a7c;
+  background-color: white;
 }
 
 .underline-2.less-border {
@@ -691,7 +699,7 @@ figcaption {
   overflow: hidden;
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #acd8d9;
+  background-color: #0077af;
 }
 
 .line-box {
@@ -1678,13 +1686,14 @@ figcaption {
 .footer {
   width: 100%;
   padding-top: 75px;
-  background-color: #acd8d9;
+  background-color: #0077af;
+  color: white;
 }
 
 .contact-details-block {
   width: 33.33%;
   padding: 20px;
-  border-right: 1px solid #6d989b;
+  border-right: 1px solid white;
 }
 
 .contact-details-block._2 {
@@ -1699,14 +1708,14 @@ figcaption {
 .phone {
   display: inline;
   margin-right: 9px;
-  color: #647078;
+  color: white;
   font-weight: 500;
 }
 
 .phone-number {
   display: inline;
   margin-right: 9px;
-  color: #647078;
+  color: white;
   font-size: 14.5px;
   font-weight: 400;
 }
@@ -1846,7 +1855,7 @@ figcaption {
   height: 92px;
   border-top: 5px solid #fff;
   border-bottom: 2px solid #8bb9bb;
-  background-color: #acd8d9;
+  background-color: white;
 }
 
 .nav-link {
@@ -1925,7 +1934,7 @@ figcaption {
   overflow: hidden;
   min-height: 750px;
   padding-top: 119px;
-  background-color: #acd8d9;
+  background-color: #0099bb;
 }
 
 .hero-flex {
@@ -2166,8 +2175,8 @@ figcaption {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  border-top: 1px solid #6d989b;
-  border-bottom: 1px solid #6d989b;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 ._18-column {
@@ -2638,6 +2647,10 @@ figcaption {
 
 .contact-text.regular {
   font-size: 15px;
+}
+
+.contact-text.regular a{
+  color: white !important;
 }
 
 .flex-center {
