@@ -27,35 +27,37 @@
                                 </div>
 
                                 <p class="paragraph medium">Have you ever been convicted of a felony?</p>
-                                <div class="checkbox-field w-checkbox"> 
-                                    <div class="checkbox-field w-checkbox">
-                                        <input type="radio" id="Felony" name="Felony" data-name="Felony" value="Yes" onclick="checkfunction();"> Yes
-                                    </div>
-                                    <div id="feloy-checked" style="display: none" >
-                                        <input type="text" class="text-field w-input" maxlength="256" id="Crime" name="Crime" placeholder="What Crime was the conviction for?">
-                                        <input type="text" class="text-field w-input" maxlength="256" id="ConvictionDate" name="ConvictionDate" placeholder="What was the date of the conviction?">
-                                        
-                                    </div>
-                                    <div class="checkbox-field w-checkbox">
-                                        <input type="radio" id="Felony" name="Felony" data-name="Felony" value="No" checked onclick="checkfunction();"> No
-                                    </div>
+                                
+                                <div class="checkbox-field w-checkbox">
+                                    <input type="radio" id="Felony" name="Felony" data-name="Felony" value="Yes" onclick="checkfunction();"> Yes
                                 </div>
+                                <div id="feloy-checked" style="display: none" >
+                                    <input type="text" class="text-field w-input" maxlength="256" id="Crime" name="Crime" placeholder="What Crime was the conviction for?">
+                                    <input type="text" class="text-field w-input" maxlength="256" id="ConvictionDate" name="ConvictionDate" placeholder="What was the date of the conviction?">
+                                    
+                                </div>
+                                <div class="checkbox-field w-checkbox">
+                                    <input type="radio" id="Felony" name="Felony" data-name="Felony" value="No" checked onclick="checkfunction();"> No
+                                </div>
+                                
                                 <p class="paragraph medium">What kind of position would most interest you?</p>
-                                <p class="paragraph medium">- Entry Level Operation</p>
-                                <select id="Entry-level-operation" name="Entry-level-operation" data-name="Entry-level-operation?" required class="w-select">
-                                    <option value="Choose One">Choose One</option>
-                                    <option value="Trimmer">Trimmer</option>
-                                    <option value="Gardener">Gardener</option>
-                                    <option value="Extraction Tech">Extraction Tech</option>
-                                    <option value="Janitorial">Janitorial</option>
-                                </select>
-                                <p class="paragraph medium">- Entry Level Security</p>
-                                <select id="Entry-level-security" name="Entry-level-security" data-name="Entry-level-security?" required class="w-select">
-                                    <option value="Choose One">Choose One</option>
-                                    <option value="Security Guard">Security Guard</option>
-                                    <option value="Delivery Agent">Delivery Agent</option>
-                                </select>
-                                <input type="hidden" role="uploadcare-uploader" name="my_file" />
+                                <div class="checkbox-field w-checkbox">
+                                    <input type="checkbox" id="ELO" name="ELO" data-name="ELO"> <label for="ELO" class="checkbox-label w-form-label">Entry Level Operation(such as Trimmer, Gardener, Janitorial, etc)</label>
+                                </div>
+                                <div class="checkbox-field w-checkbox">
+                                    <input type="checkbox" id="ELS" name="ELS" data-name="ELS">
+                                    <label for="ELS" class="checkbox-label w-form-label">Entry Level Security(such as driver or security guard)</label>
+                                </div>
+                                <div class="checkbox-field w-checkbox">
+                                    <input type="checkbox" id="Mangement" name="Mangement" data-name="Mangement">
+                                    <label for="Mangement" class="checkbox-label w-form-label">Management</label>
+                                </div>
+                                <div class="checkbox-field w-checkbox">
+                                    <input type="checkbox" id="NSure" name="NSure" data-name="NSure">
+                                    <label for="NSure" class="checkbox-label w-form-label">Not Sure</label>
+                                </div>
+                                <p class="paragraph medium">In order to verify your home address and identity, please upload a photo or scan of your Driver's License or State ID. If you have a resume, please upload here (this is not required unless you would like to be considered for a managerial position) <input type="hidden" role="uploadcare-uploader" name="my_file" /></p>
+                                
                                 <textarea id="Description" name="Description" placeholder="Anything else you would like to tell us?" maxlength="5000" data-name="Description" class="textarea w-input"></textarea>
                                 <input type="submit" value="Send" data-wait="Please wait..." class="button-2 w-button">
 
