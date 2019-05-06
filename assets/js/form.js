@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $('form').on('submit', function(e) {
+    $('#contact').on('submit', function(e) {
         e.preventDefault();
 
         var redirect = $(this).data('redirect');
@@ -10,7 +10,7 @@ $(document).ready(function() {
             method: 'POST',
             data: $(this).serializeArray(),
             dataType:"json",
-            success:function(json){
+            success:function(data){
 
                 window.location = redirect;
             }
