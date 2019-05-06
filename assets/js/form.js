@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $('#contact').on('submit', function(e) {
+    $('form').on('submit', function(e) {
         e.preventDefault();
 
         var redirect = $(this).data('redirect');
