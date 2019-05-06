@@ -10,14 +10,15 @@ thanks:
     content:
         - We look forward to seeing you!
 ---
-<!-- Event snippet for Form conversion page -->
+<!-- Event snippet for Form conversion page 
 <script>
   gtag('event', 'conversion', {
-      'send_to': 'AW-818062199/9K3CCOuVyosBEPfGioYD',
+      'send_to': 'UA-4628695-14/9K3CCOuVyosBEPfGioYD',
       'value': 20.0,
       'currency': 'USD'
   });
 </script>
+-->
 
 
 {% include thanks.html %}
