@@ -1,33 +1,33 @@
 # Basics
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://zises-test.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://inclusivecaremd.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # External services
-formspree: "mddyylom"
+google_analytics: "UA-4628695-14" # GA ID
+google_conversions: ""
+formspree: "xapzygpm"
 
-github: [metadata]
 # Build settings
 markdown: kramdown
 theme: minima
 
 # Content
-title: IL Medical Card Consultation - Dr. Consalter
+title: Jobs in Maryland Health Industry
 meta:
     description: |
-        We are a small, family-run general medicine practice in Wicker Park
-        providing compassionate, personalized, medical care.
+        A Better Employer for a Better Maryland.
 appointment:
     link:
-        src: https://calendly.com/doctorconsalter
-        label: Book Appointment
+#        src: https://calendly.com/doctorconsalter
+#        label: Book Appointment
 footer:
     blocks:
     - header: Contact Us
       contacts:
       - label: E-mail
         link:
-            src: mailto:doctor@drconsalter.com
-            label: doctor@drconsalter.com
+            src: mailto:jobs@inclusivecaremd.com
+            label: jobs@inclusivecaremd.com
       socials:
       - icon: facebook
         src: https://facebook.com/#
@@ -35,17 +35,17 @@ footer:
         src: https://twitter.com/#
       - icon: instagram
         src: https://instagram.com/#
-    - header: Address
-      lines:
-      - 1531 N Wood St
-      - 1st Floor
-      - Chicago, IL 60622
-      link:
-          src: https://goo.gl/maps/FLFBkq8dBnD2
-          label: GET DIRECTIONS
-    - header: Schedule
-      content: By Appointment Only
-      link:
-          src: https://calendly.com/doctorconsalter
-          label: Book Appointment
-          target: _blank
+#    - header: Address
+#      lines:
+#      - 1531 N Wood St
+#      - 1st Floor
+#      - Chicago, IL 60622
+#      link:
+#          src: https://goo.gl/maps/FLFBkq8dBnD2
+#          label: GET DIRECTIONS
+#    - header: Schedule
+#      content: By Appointment Only
+#      link:
+#          src: https://calendly.com/doctorconsalter
+#          label: Book Appointment
+#          target: _blank

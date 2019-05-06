@@ -1,11 +1,11 @@
 ---
 layout: default
 welcome:
-    label: Welcome
-    header: Free Initial Medical Consultation
-    subheader: I am an Internal Medicine MD and have been practicing since 1999. I run a small, family-run general medicine practice in Wicker Park dedicated to providing compassionate, personalized, one-on-one medical care to each and every one of my patients.
+    label: Maryland
+    header: A Better Employer for a Better Maryland
+    subheader: Maryland's medical cannabis program has been designed to ensure that our most disadvantaged citizens, who have been hardest hit by the failed, decades long, war on drugs, can take part in the many great paying jobs being created by this exciting new industry. 
     content:
-      - I have seen first-hand the immensely positive impact on the quality of life of my patients and am committed to helping others gain access to this important medicine.  This is why I have been helping patients access medicine since the program began in 2015 and am firmly committed to helping others.
+      - Inclusive Care MD is committed to being at the forefront of serving and employing Maryland's most deserving populations.  If you are over 18 years of age and live in one of Maryland's under-served communities, we want to give you a chance to join our team.  Fill out the form below and we'll get back to you as soon as we can.
       - We look forward to seeing you!
 process:
     header: The Process
