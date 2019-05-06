@@ -1,6 +1,6 @@
 # Basics
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://inclusivecaremd.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zises-test.netlify.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # External services
 google_analytics: "UA-4628695-14" # GA ID
